@@ -6,9 +6,22 @@
     <style media="screen">
 
       /* GLOBAL STYLES */
-
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 2em;
+        margin-top: 0;
+      }
       a {
         color: red;
+      }
+
+      /* SOCIAL STYLE LINK */
+      .full-hero {
+        background-color: #c7dbac;
+        height: 50vh;
       }
 
       /* SOCIAL STYLE LINK */
@@ -17,29 +30,39 @@
      }
 
      /* BIO BOX STYLING  */
-      .bio-box {
+    .bio-box {
        border: 1px solid black;
+       font-size: 1rem;
        width: 75%;
+       padding: 10px;
      }
-      .bio-copy a {
+    .bio-box h3 {
+      font-size: 1.5em;
+    }
+    .bio-copy {
+       font-size: 1em;
+     }
+    .bio-copy a {
        color: green;
      }
 
     </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
-    <ul>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-    </ul>
+    <div class="full-hero hero-home">
+      <h1>I'm an h1</h1>
+      <ul>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+      </ul>
+    </div>
     <h2>I'm an h2</h2>
     <div class="bio-box">
       <h3>Michael Hartl</h3>
